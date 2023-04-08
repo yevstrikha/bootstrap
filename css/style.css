@@ -4,7 +4,12 @@
   box-sizing: border-box; }
 
 header {
-  background-color: #373A3C; }
+  background-color: #373A3C;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2; }
   header .nav-link {
     color: #fff;
     opacity: 0.5;
@@ -40,5 +45,15 @@ header {
       font-weight: 400;
       font-family: "Font Awesome 6 Free",sans-serif;
       color: #79C422; }
+
+.carousel-item {
+  height: 100vh; }
+  .carousel-item img {
+    height: 100%; }
+
+.value {
+  background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+  padding-top: 64px;
+  padding-bottom: 162px; }
 
 /*# sourceMappingURL=style.css.map */

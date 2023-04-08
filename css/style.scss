@@ -7,6 +7,11 @@
 
 header{
   background-color: #373A3C;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
   .nav-link{
     color: #fff;
     opacity: 0.5;
@@ -55,4 +60,17 @@ header{
 
     }
   }
+}
+
+.carousel-item{
+  height: 100vh;
+  img{
+    height: 100%;
+  }
+}
+
+.value{
+  background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+  padding-top: 64px;
+  padding-bottom: 162px;
 }
