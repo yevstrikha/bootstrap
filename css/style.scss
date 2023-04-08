@@ -65,8 +65,8 @@ header {
   }
 
   .form-control:focus {
-    border-color: #79C422;
-    box-shadow: 0 0 0 0.25rem #79C422;
+    border:solid 0.5px #79C422;
+    box-shadow: 0 0 0 0.15rem #79C422;
   }
 
   .user {
@@ -123,7 +123,6 @@ header {
   padding-bottom: 162px;
 
   .text {
-    text-align: center;
 
     h2 {
       @include h2_style;
@@ -180,7 +179,7 @@ header {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 33px 60px;
+      padding: 33px 58px;
       max-height: 180px;
     }
   }
