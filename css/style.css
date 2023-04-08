@@ -31,7 +31,7 @@ header {
     header .nav-item.dropdown:after {
       content: "\f077";
       font-weight: 900;
-      font-family: "Font Awesome 6 Free",sans-serif;
+      font-family: "Font Awesome 6 Free", sans-serif;
       transform: rotate(180deg);
       color: #79C422; }
   header .form-control:focus {
@@ -43,7 +43,7 @@ header {
     header .user:before {
       content: "\f007";
       font-weight: 400;
-      font-family: "Font Awesome 6 Free",sans-serif;
+      font-family: "Font Awesome 6 Free", sans-serif;
       color: #79C422; }
 
 .carousel-item {
@@ -51,9 +51,78 @@ header {
   .carousel-item img {
     height: 100%; }
 
+.carousel-control-prev-icon {
+  background: none;
+  transform: rotate(-90deg); }
+  .carousel-control-prev-icon:before {
+    content: "\f077";
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free", sans-serif;
+    color: #79C422;
+    font-size: 25px; }
+
+.carousel-control-next-icon {
+  background: none;
+  transform: rotate(90deg); }
+  .carousel-control-next-icon:before {
+    content: "\f077";
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free", sans-serif;
+    color: #79C422;
+    font-size: 25px; }
+
 .value {
   background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
   padding-top: 64px;
   padding-bottom: 162px; }
+  .value .text {
+    text-align: center; }
+    .value .text h2 {
+      font-family: HelveticaNeue, sans-serif;
+      font-size: 48px;
+      line-height: 56px; }
+    .value .text p {
+      font-size: 36px;
+      line-height: 42px; }
+  .value .cards {
+    display: flex;
+    justify-content: center; }
+    .value .cards .card {
+      border: none; }
+      .value .cards .card h5 {
+        font-family: HelveticaNeue, sans-serif;
+        color: #435766;
+        font-size: 18px;
+        line-height: 21px; }
+      .value .cards .card p {
+        font-family: 'HelveticaNeue',sans-serif;
+        font-size: 22px;
+        line-height: 28px;
+        color: #435766;
+        margin-bottom: 38px; }
+      .value .cards .card .btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        background-color: #79C422;
+        padding: 20px;
+        color: white;
+        font-size: 14px;
+        line-height: 20px; }
+    .value .cards .card-img-top {
+      background-color: #fafafa;
+      min-height: 175px; }
+    .value .cards .card:nth-of-type(2) img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 55px;
+      max-height: 180px; }
+    .value .cards .card:nth-of-type(3) img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 33px 60px;
+      max-height: 180px; }
 
 /*# sourceMappingURL=style.css.map */
