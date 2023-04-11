@@ -80,6 +80,7 @@ header {
     font-size: 48px;
     line-height: 56px; }
   .value .text p {
+    font-family: HelveticaNeue, sans-serif;
     font-size: 36px;
     line-height: 42px; }
   .value .cards .card {
@@ -90,7 +91,7 @@ header {
       font-size: 18px;
       line-height: 21px; }
     .value .cards .card p {
-      font-family: 'HelveticaNeue', sans-serif;
+      font-family: HelveticaNeue, sans-serif;
       font-size: 22px;
       line-height: 28px;
       color: #435766;
@@ -142,7 +143,7 @@ header {
     font-size: 48px;
     line-height: 56px; }
   .design p {
-    font-family: 'HelveticaNeue', sans-serif;
+    font-family: HelveticaNeue, sans-serif;
     font-size: 24px;
     line-height: 28px;
     color: #ffffff;
@@ -155,5 +156,74 @@ header {
     .design .buttons .btn:first-of-type {
       background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
       border-radius: 4px; }
+
+.Exclusive_games {
+  padding-top: 97px;
+  padding-bottom: 140px;
+  background: url(../images/exlusive.jpg) no-repeat;
+  background-size: cover;
+  position: relative; }
+  .Exclusive_games:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(23, 23, 23, 0.5); }
+  .Exclusive_games h3 {
+    position: relative;
+    z-index: 3;
+    font-family: HelveticaNeue, sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 54px; }
+  .Exclusive_games .carousel-item {
+    width: 320px !important; }
+
+footer {
+  background-color: #373A3C;
+  padding-top: 58px;
+  padding-bottom: 38px; }
+  footer h6 {
+    background: none;
+    font-family: HelveticaNeue, sans-serif;
+    color: #7DD42F;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0; }
+  footer .btn {
+    background: none;
+    font-family: HelveticaNeue, sans-serif;
+    color: #7DD42F;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0;
+    display: flex;
+    align-items: center; }
+    footer .btn:after {
+      content: "\f077";
+      font-weight: 900;
+      display: inline-block;
+      font-family: "Font Awesome 6 Free", sans-serif;
+      transform: rotate(180deg);
+      color: #79C422;
+      margin-left: 5px; }
+    footer .btn:hover {
+      color: #7DD42F; }
+  footer .collapse {
+    color: #7DD42F; }
+    footer .collapse:hover {
+      background: none; }
+  footer .list-group-item {
+    background: none;
+    border: none;
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block; }
+    footer .list-group-item:hover {
+      background: none;
+      color: #7DD42F; }
 
 /*# sourceMappingURL=style.css.map */
