@@ -124,7 +124,7 @@ header {
 .design {
   background: url(../images/Rectangle.jpg) no-repeat;
   background-size: cover;
-  padding: 114px 145px;
+  padding: 114px 0 145px 0;
   position: relative; }
   .design:before {
     content: "";
@@ -137,6 +137,7 @@ header {
     background: radial-gradient(100% 100% at 50% 0%, rgba(193, 255, 127, 0.1) 0%, rgba(141, 216, 61, 0.1) 100%); }
   .design .container {
     position: inherit;
+    width: 100%;
     z-index: 3; }
   .design h2 {
     font-family: HelveticaNeue, sans-serif;
@@ -201,11 +202,12 @@ footer {
     line-height: 21px;
     padding: 0;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    border: none; }
     footer .btn:after {
       content: "\f077";
       font-weight: 900;
-      display: inline-block;
+      display: none;
       font-family: "Font Awesome 6 Free", sans-serif;
       transform: rotate(180deg);
       color: #79C422;
@@ -225,5 +227,17 @@ footer {
     footer .list-group-item:hover {
       background: none;
       color: #7DD42F; }
+  footer .social {
+    list-style: none; }
+    footer .social li {
+      transition: 0.3s;
+      padding: 0 5px; }
+      footer .social li:hover {
+        transform: scale(1.3); }
+    footer .social a {
+      text-decoration: none;
+      color: #79C422; }
+      footer .social a .fa-brands {
+        font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */

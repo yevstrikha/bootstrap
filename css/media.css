@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1200px) {
+  .design .buttons .btn {
+    width: 100%; }
+    .design .buttons .btn:first-of-type {
+      margin-bottom: 15px;
+      margin-right: 0; } }
+@media only screen and (max-width: 767px) {
+  footer .btn:after {
+    content: "\f077";
+    font-weight: 900;
+    display: inline-block;
+    font-family: "Font Awesome 6 Free", sans-serif;
+    transform: rotate(180deg);
+    color: #79C422;
+    margin-left: 5px; } }
+
+/*# sourceMappingURL=media.css.map */
