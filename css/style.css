@@ -46,25 +46,24 @@ header {
       font-family: "Font Awesome 6 Free", sans-serif;
       color: #79C422; }
 
-.carousel-item {
+.main .carousel-item {
   height: 100vh; }
-  .carousel-item img {
+  .main .carousel-item img {
     height: 100%; }
-
-.carousel-control-prev-icon {
+.main .carousel-control-prev-icon {
   background: none;
   transform: rotate(-90deg); }
-  .carousel-control-prev-icon:before {
+  .main .carousel-control-prev-icon:before {
     content: "\f077";
     font-weight: 900;
     font-family: "Font Awesome 6 Free", sans-serif;
     color: #79C422;
     font-size: 25px; }
-
-.carousel-control-next-icon {
+.main .carousel-control-next-icon {
   background: none;
-  transform: rotate(90deg); }
-  .carousel-control-next-icon:before {
+  transform: rotate(90deg);
+  opacity: 1; }
+  .main .carousel-control-next-icon:before {
     content: "\f077";
     font-weight: 900;
     font-family: "Font Awesome 6 Free", sans-serif;
@@ -181,7 +180,35 @@ header {
     color: #FFFFFF;
     margin-bottom: 54px; }
   .Exclusive_games .carousel-item {
-    width: 320px !important; }
+    left: 10%; }
+  .Exclusive_games .carousel-control-next-icon {
+    background: none;
+    position: absolute;
+    top: -50px;
+    right: 50px;
+    transform: rotate(90deg); }
+    .Exclusive_games .carousel-control-next-icon:before {
+      content: "\f077";
+      font-weight: 900;
+      font-family: "Font Awesome 6 Free", sans-serif;
+      color: #79C422;
+      font-size: 25px; }
+  .Exclusive_games .carousel-control-prev-icon {
+    background: none;
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    transform: rotate(-90deg); }
+    .Exclusive_games .carousel-control-prev-icon:before {
+      content: "\f077";
+      font-weight: 900;
+      font-family: "Font Awesome 6 Free", sans-serif;
+      color: #79C422;
+      font-size: 25px; }
+  .Exclusive_games .opacity {
+    opacity: 1; }
+  .Exclusive_games .card_wrapp .card {
+    margin: 0 15px; }
 
 footer {
   background-color: #373A3C;
