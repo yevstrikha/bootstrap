@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
+img {
+  display: block;
+  width: 100%; }
+
 header {
   background-color: #373A3C;
   position: absolute;
@@ -162,7 +166,8 @@ header {
   padding-bottom: 140px;
   background: url(../images/exlusive.jpg) no-repeat;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  overflow-x: hidden; }
   .Exclusive_games:before {
     content: "";
     position: absolute;
@@ -179,36 +184,45 @@ header {
     line-height: 42px;
     color: #FFFFFF;
     margin-bottom: 54px; }
-  .Exclusive_games .carousel-item {
-    left: 10%; }
-  .Exclusive_games .carousel-control-next-icon {
-    background: none;
-    position: absolute;
-    top: -50px;
-    right: 50px;
-    transform: rotate(90deg); }
-    .Exclusive_games .carousel-control-next-icon:before {
-      content: "\f077";
-      font-weight: 900;
-      font-family: "Font Awesome 6 Free", sans-serif;
-      color: #79C422;
-      font-size: 25px; }
-  .Exclusive_games .carousel-control-prev-icon {
-    background: none;
-    position: absolute;
-    top: -50px;
-    left: 50px;
-    transform: rotate(-90deg); }
-    .Exclusive_games .carousel-control-prev-icon:before {
-      content: "\f077";
-      font-weight: 900;
-      font-family: "Font Awesome 6 Free", sans-serif;
-      color: #79C422;
-      font-size: 25px; }
-  .Exclusive_games .opacity {
-    opacity: 1; }
-  .Exclusive_games .card_wrapp .card {
-    margin: 0 15px; }
+  .Exclusive_games .carousel {
+    left: 7%; }
+    .Exclusive_games .carousel .carousel-inner {
+      padding: 20px 0; }
+    .Exclusive_games .carousel .carousel-control-next-icon {
+      background: none;
+      position: absolute;
+      top: -50px;
+      right: 100%;
+      transform: rotate(90deg); }
+      .Exclusive_games .carousel .carousel-control-next-icon:before {
+        content: "\f077";
+        font-weight: 900;
+        font-family: "Font Awesome 6 Free", sans-serif;
+        color: #79C422;
+        font-size: 25px; }
+    .Exclusive_games .carousel .carousel-control-prev-icon {
+      background: none;
+      position: absolute;
+      top: -50px;
+      left: -20%;
+      transform: rotate(-90deg); }
+      .Exclusive_games .carousel .carousel-control-prev-icon:before {
+        content: "\f077";
+        font-weight: 900;
+        font-family: "Font Awesome 6 Free", sans-serif;
+        color: #79C422;
+        font-size: 25px; }
+    .Exclusive_games .carousel .opacity {
+      opacity: 1; }
+  .Exclusive_games .card_wrapper .card {
+    border: none;
+    width: calc(100% / 3);
+    transition: 0.3s; }
+    .Exclusive_games .card_wrapper .card .card-img-top {
+      width: 100%;
+      height: 180px; }
+    .Exclusive_games .card_wrapper .card:hover {
+      transform: scale(1.1); }
 
 footer {
   background-color: #373A3C;
@@ -266,5 +280,46 @@ footer {
       color: #79C422; }
       footer .social a .fa-brands {
         font-size: 20px; }
+
+.call_of_duty_ww2 {
+  background: radial-gradient(100% 100% at 50% 0%, rgba(76, 80, 82, 0.1) 0%, rgba(95, 98, 101, 0.1) 100%);
+  padding-top: 99px;
+  padding-bottom: 25px; }
+  .call_of_duty_ww2 .container {
+    text-align: center; }
+  .call_of_duty_ww2 h3 {
+    font-family: HelveticaNeue, sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #435766;
+    margin-bottom: 208px;
+    display: inline-block; }
+  .call_of_duty_ww2 .buttons {
+    margin-bottom: 100px; }
+    .call_of_duty_ww2 .buttons .btn:first-of-type {
+      padding: 15px 41px;
+      background-color: #79C422;
+      display: inline-block;
+      cursor: pointer; }
+    .call_of_duty_ww2 .buttons .btn:nth-of-type(2) {
+      padding: 15px 21px;
+      background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+      display: inline-block;
+      cursor: pointer; }
+  .call_of_duty_ww2 .video {
+    width: 890px;
+    max-width: 100%;
+    height: 562px;
+    max-height: 100%;
+    margin-bottom: 80px; }
+  .call_of_duty_ww2 .order_details h3 {
+    max-width: 400px;
+    width: 100%;
+    padding-top: 37px; }
+  .call_of_duty_ww2 .order_details .order_img {
+    max-width: 540px;
+    width: 100%; }
+  .call_of_duty_ww2 .game_screenshots {
+    padding-bottom: 100px; }
 
 /*# sourceMappingURL=style.css.map */

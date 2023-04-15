@@ -15,7 +15,11 @@
 }
 
 @media only screen and (max-width: 992px) {
-
+.Exclusive_games{
+  .carousel-item{
+    left: 0;
+  }
+}
 }
 
 @media only screen and (max-width: 767px) {

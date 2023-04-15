@@ -4,6 +4,9 @@
     .design .buttons .btn:first-of-type {
       margin-bottom: 15px;
       margin-right: 0; } }
+@media only screen and (max-width: 992px) {
+  .Exclusive_games .carousel-item {
+    left: 0; } }
 @media only screen and (max-width: 767px) {
   footer .btn:after {
     content: "\f077";
