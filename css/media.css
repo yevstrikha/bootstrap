@@ -4,10 +4,14 @@
     .design .buttons .btn:first-of-type {
       margin-bottom: 15px;
       margin-right: 0; } }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 993px) {
   .Exclusive_games .carousel-item {
-    left: 0; } }
-@media only screen and (max-width: 767px) {
+    left: 0; }
+
+  .main .carousel-item {
+    height: 70vh;
+    margin-top: 30px; } }
+@media only screen and (max-width: 768px) {
   footer .btn:after {
     content: "\f077";
     font-weight: 900;
@@ -16,5 +20,9 @@
     transform: rotate(180deg);
     color: #79C422;
     margin-left: 5px; } }
+@media only screen and (max-width: 420px) {
+  .main .carousel-item {
+    height: 40vh;
+    margin-top: 40px; } }
 
 /*# sourceMappingURL=media.css.map */

@@ -27,17 +27,20 @@ header {
   header .navbar-nav .nav-link.active {
     opacity: 100%;
     color: #fff; }
-  header .dropdown-toggle::after {
-    display: none; }
-  header .nav-item.dropdown {
+  header .dropdown-toggle {
     display: flex;
     align-items: center; }
-    header .nav-item.dropdown:after {
+    header .dropdown-toggle:after {
       content: "\f077";
       font-weight: 900;
       font-family: "Font Awesome 6 Free", sans-serif;
       transform: rotate(180deg);
-      color: #79C422; }
+      color: #79C422;
+      display: inline-block;
+      border: none; }
+  header .nav-item.dropdown {
+    display: flex;
+    align-items: center; }
   header .form-control:focus {
     border: solid 0.5px #79C422;
     box-shadow: 0 0 0 0.15rem #79C422; }
@@ -78,6 +81,8 @@ header {
   background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
   padding-top: 64px;
   padding-bottom: 162px; }
+  .value .text .text_img {
+    max-width: 63px; }
   .value .text h2 {
     font-family: HelveticaNeue, sans-serif;
     font-size: 48px;
@@ -292,7 +297,7 @@ footer {
     font-size: 36px;
     line-height: 42px;
     color: #435766;
-    margin-bottom: 208px;
+    margin-bottom: 158px;
     display: inline-block; }
   .call_of_duty_ww2 .buttons {
     margin-bottom: 100px; }
@@ -321,5 +326,15 @@ footer {
     width: 100%; }
   .call_of_duty_ww2 .game_screenshots {
     padding-bottom: 100px; }
+  .call_of_duty_ww2 .specification .text-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .call_of_duty_ww2 .specification p {
+    margin: 0;
+    max-width: 240px;
+    width: 100%; }
+  .call_of_duty_ww2 .specification p:first-of-type {
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */

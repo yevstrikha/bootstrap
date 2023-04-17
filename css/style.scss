@@ -59,23 +59,24 @@ header {
     opacity: 100%;
     color: #fff;
   }
-
-  .dropdown-toggle::after {
-    display: none;
-
-  }
-
-  .nav-item.dropdown {
+  .dropdown-toggle{
     display: flex;
     align-items: center;
-
     &:after {
       content: "\f077";
       font-weight: 900;
       font-family: "Font Awesome 6 Free", sans-serif;
       transform: rotate(180deg);
       color: #79C422;
+      display: inline-block;
+      border: none;
+
     }
+  }
+
+  .nav-item.dropdown {
+    display: flex;
+    align-items: center;
   }
 
   .form-control:focus {
@@ -140,7 +141,9 @@ header {
   padding-bottom: 162px;
 
   .text {
-
+.text_img{
+  max-width: 63px;
+}
     h2 {
       @include h2_style;
     }
@@ -449,7 +452,7 @@ footer {
   h3 {
     @include h3_style;
     color: #435766;
-    margin-bottom: 208px;
+    margin-bottom: 158px;
     display: inline-block;
   }
   .buttons{
@@ -488,6 +491,21 @@ footer {
   }
   .game_screenshots{
     padding-bottom:100px;
+  }
+  .specification{
+    .text-start{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    p{
+      margin: 0;
+      max-width: 240px;
+      width: 100%;
+    }
+    p:first-of-type{
+      margin-bottom: 20px;
+    }
   }
 }
 
