@@ -66,6 +66,25 @@ header {
     font-family: "Font Awesome 6 Free", sans-serif;
     color: #79C422;
     font-size: 25px; }
+.main .main_title {
+  top: 40%;
+  right: 20%; }
+  .main .main_title h3 {
+    font-family: HelveticaNeue, sans-serif;
+    font-size: 36px;
+    line-height: 42px; }
+  .main .main_title p {
+    font-size: 24px;
+    line-height: 28px; }
+  .main .main_title .buttons .btn {
+    background-color: #8DD83D;
+    padding: 8px 25px;
+    font-size: 16px;
+    line-height: 21px;
+    transition: 0.5s;
+    cursor: pointer; }
+    .main .main_title .buttons .btn:hover {
+      background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%); }
 .main .carousel-control-next-icon {
   background: none;
   transform: rotate(90deg);
@@ -217,8 +236,8 @@ header {
       opacity: 1; }
   .Exclusive_games .card_wrapper .card {
     border: none;
-    width: calc(100% / 3);
-    transition: 0.3s; }
+    transition: 0.3s;
+    display: block; }
     .Exclusive_games .card_wrapper .card .card-img-top {
       width: 100%;
       height: 180px; }

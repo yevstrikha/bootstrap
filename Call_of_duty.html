@@ -88,13 +88,23 @@
 </header>
 <section class="main">
     <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
+        <div class="carousel-inner position-relative">
             <div class="carousel-item active">
                 <img src="images/Star-Wars.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
                 <img src="images/CoD-WWII.jpg" class="d-block w-100" alt="...">
             </div>
+            <div class="main_title position-absolute d-none d-md-block  ">
+                <h3 class="text-light">Call of Duty: WWII</h3>
+                <p class="text-light">Released on: 23/11/2017</p>
+
+                <div class="buttons mt-lg-5">
+                    <button type="button" class="btn text-light btn-lg me-3">Order Now</button>
+                    <button type="button" class="btn text-light btn-lg">More Games</button>
+                </div>
+            </div>
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -124,20 +134,20 @@
             </div>
         </div>
         <div class="game_screenshots">
-            <div class="row order_details mb-md-5">
-                <div class="col-6 text-start">
-                    <h3>Life Advice Looking Through A Window</h3>
+            <div class="row order_details mb-md-5 mb-4 ">
+                <div class="col-sm-6 text-start">
+                    <h3 class="mb-3">Life Advice Looking Through A Window</h3>
                 </div>
-                <div class="col-6 order_img">
+                <div class="col-sm-6 order_img">
                     <img src="images/iw-key-art.jpg" alt="">
                 </div>
             </div>
             <div class="row order_details">
-                <div class="col-6 order_img">
+                <div class="col-sm-6 order_img order-2 order-lg-1">
                     <img src="images/maxresdefault2.jpg" alt="">
                 </div>
-                <div class="col-6 text-start ps-md-5">
-                    <h3>The Best Answers</h3>
+                <div class="col-sm-6 text-start ps-md-5 order-1 order-lg-2">
+                    <h3 class="mb-3" >The Best Answers</h3>
                 </div>
             </div>
         </div>
@@ -159,7 +169,7 @@
                 </div>
             </div>
         </div>
-        <div class="buttons mt-lg-4">
+        <div class="buttons mt-5">
             <button type="button" class="btn text-light btn-lg me-3">Order Now</button>
             <button type="button" class="btn text-light btn-lg">Technical Specifications</button>
         </div>

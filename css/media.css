@@ -1,17 +1,55 @@
 @media only screen and (max-width: 1200px) {
+  .navbar-toggler {
+    border: #8DD83D solid 1px; }
+    .navbar-toggler:focus {
+      box-shadow: none; }
+    .navbar-toggler:before {
+      content: " ";
+      display: block;
+      height: 2px;
+      width: 10px;
+      color: #79C422;
+      z-index: 7; }
+    .navbar-toggler .navbar-toggler-icon {
+      background-image: url("../images/nav-bar.svg"); }
+
   .design .buttons .btn {
     width: 100%; }
     .design .buttons .btn:first-of-type {
       margin-bottom: 15px;
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  .main .main_title {
+    top: 65%;
+    right: 20%; } }
 @media only screen and (max-width: 993px) {
-  .Exclusive_games .carousel-item {
-    left: 0; }
+  .Exclusive_games {
+    padding-bottom: 50px; }
+    .Exclusive_games .card_wrapper {
+      width: 50%;
+      margin: auto; }
+      .Exclusive_games .card_wrapper .card {
+        margin: 25px 0; }
+    .Exclusive_games .carousel {
+      left: 0; }
+      .Exclusive_games .carousel .carousel-control-next-icon {
+        display: none; }
+    .Exclusive_games .carousel-item {
+      left: 0; }
 
   .main .carousel-item {
-    height: 70vh;
-    margin-top: 30px; } }
+    height: 100vh;
+    margin-top: 30px; }
+  .main .main_title {
+    top: 50%;
+    right: 30%; } }
 @media only screen and (max-width: 768px) {
+  .value {
+    padding-bottom: 100px; }
+
+  .design {
+    padding-bottom: 70px; }
+
   footer .btn:after {
     content: "\f077";
     font-weight: 900;
@@ -19,8 +57,23 @@
     font-family: "Font Awesome 6 Free", sans-serif;
     transform: rotate(180deg);
     color: #79C422;
-    margin-left: 5px; } }
+    margin-left: 5px; }
+
+  .main .carousel-item {
+    height: 60vh;
+    margin-top: 30px; }
+  .main .main_title {
+    top: 55%;
+    right: 15%; } }
 @media only screen and (max-width: 420px) {
+  .call_of_duty_ww2 h3 {
+    margin-bottom: 30px; }
+  .call_of_duty_ww2 .buttons .btn {
+    width: 100%; }
+    .call_of_duty_ww2 .buttons .btn:first-of-type {
+      margin-right: 0;
+      margin-bottom: 10px; }
+
   .main .carousel-item {
     height: 40vh;
     margin-top: 40px; } }

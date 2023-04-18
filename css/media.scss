@@ -1,4 +1,21 @@
 @media only screen and (max-width: 1200px) {
+  .navbar-toggler {
+    border: #8DD83D solid 1px;
+&:focus{
+  box-shadow: none;
+}
+    &:before{
+      content: " ";
+      display: block;
+      height: 2px;
+      width: 10px;
+      color: #79C422;
+      z-index: 7;
+    }
+    .navbar-toggler-icon{
+      background-image: url("../images/nav-bar.svg");
+    }
+  }
   .design {
     .buttons {
       .btn {
@@ -7,29 +24,60 @@
         &:first-of-type {
           margin-bottom: 15px;
           margin-right: 0;
-
         }
       }
     }
   }
-
+  .main {
+    .main_title {
+      top: 65%;
+      right: 20%;
+    }
+  }
 }
 
 @media only screen and (max-width: 993px) {
   .Exclusive_games {
+    padding-bottom: 50px;
+    .card_wrapper{
+      width: 50%;
+      margin: auto;
+      .card{
+
+        margin: 25px 0;
+
+      }
+    }
+    .carousel{
+      left: 0;
+      .carousel-control-next-icon{
+        display: none;
+      }
+    }
     .carousel-item {
       left: 0;
     }
   }
   .main {
     .carousel-item {
-      height: 70vh;
+      height: 100vh;
       margin-top: 30px;
+    }
+
+    .main_title {
+      top: 50%;
+      right: 30%;
     }
   }
 }
 
 @media only screen and (max-width: 768px) {
+  .value{
+    padding-bottom: 100px;
+  }
+  .design{
+    padding-bottom: 70px;
+  }
   footer .btn:after {
     content: "\f077";
     font-weight: 900;
@@ -39,10 +87,34 @@
     color: #79C422;
     margin-left: 5px;
   }
+  .main {
+    .carousel-item {
+      height: 60vh;
+      margin-top: 30px;
+    }
 
+    .main_title {
+      top: 55%;
+      right: 15%;
+    }
+  }
 }
 
 @media only screen and (max-width: 420px) {
+  .call_of_duty_ww2{
+    h3{
+      margin-bottom: 30px;
+    }
+    .buttons{
+      .btn{
+        width: 100%;
+
+      &:first-of-type{
+        margin-right: 0;
+        margin-bottom: 10px;
+      }}
+    }
+  }
   .main {
     .carousel-item {
       height: 40vh;
@@ -52,7 +124,9 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .main {
 
+  }
 }
 
 @media only screen and (max-width: 360px) {
